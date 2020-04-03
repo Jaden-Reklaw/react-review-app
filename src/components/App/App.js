@@ -24,6 +24,16 @@ class App extends Component {
     ],
   }
 
+  // componentDidMount() {
+  //   // make our GET request to get Dragon data from teh server
+  //   axios.get('/dragons').then((response) => {
+  //     //Update state with the response
+  //     this.setState({
+  //       dragonList: response.data,
+  //     })
+  //   }).catch((error) => console.log(error));
+  // }
+
   render() {
     return (
       <div className="App">
